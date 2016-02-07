@@ -11,6 +11,11 @@ set splitbelow
 set splitright
 set laststatus=2 " always show status bar
 
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Right> <NOP>
+noremap <Left> <NOP>
+
 " display tabs and trailing spaces
 "set list
 "set listchars=tab:▷⋅,trail:⋅,nbsp:⋅
